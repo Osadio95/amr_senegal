@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAM au Sénégal</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-shield-virus"></i> RAM</h1>
+                <p>Résistance aux Antimicrobiens</p>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="antibiotiques.html"><i class="fas fa-pills"></i> Les Antibiotiques</a></li>
+                <li><a href="prevention.html"><i class="fas fa-shield-alt"></i> Stratégies de Prévention</a></li>
+                <li><a href="bioinformatique.html"><i class="fas fa-dna"></i> Bioinformatique et RAM</a></li>
+                <li><a href="articles.html"><i class="fas fa-newspaper"></i> Articles</a></li>
+                <li><a href="senegal.html" class="active"><i class="fas fa-map-marker-alt"></i> RAM au Sénégal</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="page-header">
+                <h1>RAM au Sénégal</h1>
+                <p>Situation nationale et initiatives de lutte contre la résistance aux antimicrobiens</p>
+            </div>
+
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>65%</h3>
+                    <p>Résistance E. coli aux fluoroquinolones</p>
+                </div>
+                <div class="stat-card">
+                    <h3>45%</h3>
+                    <p>BLSE chez les entérobactéries</p>
+                </div>
+                <div class="stat-card">
+                    <h3>15M</h3>
+                    <p>Population couverte par la surveillance</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Contexte épidémiologique</h2>
+                <p>Le Sénégal, pays d'Afrique de l'Ouest de 17 millions d'habitants, fait face à des défis majeurs concernant la résistance aux antimicrobiens. Le contexte tropical, la densité urbaine élevée à Dakar et les défis socio-économiques créent un environnement propice à l'émergence et à la propagation de la résistance.</p>
+                
+                <h3>Principales préoccupations</h3>
+                <ul>
+                    <li><strong>Infections nosocomiales</strong> : Taux élevé dans les hôpitaux de référence</li>
+                    <li><strong>Automédication</strong> : Usage non contrôlé d'antibiotiques</li>
+                    <li><strong>Qualité des médicaments</strong> : Circulation de médicaments de qualité douteuse</li>
+                    <li><strong>Accès aux soins</strong> : Inégalités entre zones urbaines et rurales</li>
+                </ul>
+                
+                <h3>Pathogènes prioritaires</h3>
+                <p>Les pathogènes les plus préoccupants au Sénégal incluent :</p>
+                <ul>
+                    <li>Escherichia coli producteur de BLSE</li>
+                    <li>Klebsiella pneumoniae multirésistante</li>
+                    <li>Salmonella Typhi résistante aux fluoroquinolones</li>
+                    <li>Staphylococcus aureus résistant à la méticilline (SARM)</li>
+                    <li>Mycobacterium tuberculosis multirésistant</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Plan d'action national</h2>
+                <p>Le Sénégal a adopté en 2019 son Plan d'Action National de Lutte contre la Résistance aux Antimicrobiens (PAN-RAM) 2019-2023, aligné sur la stratégie mondiale de l'OMS et basé sur l'approche "One Health".</p>
+                
+                <h3>Objectifs stratégiques</h3>
+                <ul>
+                    <li><strong>Sensibilisation et formation</strong> : Améliorer les connaissances sur la RAM</li>
+                    <li><strong>Surveillance</strong> : Renforcer les systèmes de surveillance</li>
+                    <li><strong>Prévention et contrôle</strong> : Réduire l'incidence des infections</li>
+                    <li><strong>Usage optimal</strong> : Promouvoir l'usage rationnel des antimicrobiens</li>
+                    <li><strong>Recherche et innovation</strong> : Développer la recherche nationale</li>
+                </ul>
+                
+                <h3>Approche multisectorielle</h3>
+                <p>Le plan implique plusieurs ministères :</p>
+                <ul>
+                    <li><strong>Ministère de la Santé et de l'Action Sociale</strong> : Coordination générale</li>
+                    <li><strong>Ministère de l'Élevage</strong> : Santé animale et usage vétérinaire</li>
+                    <li><strong>Ministère de l'Agriculture</strong> : Usage agricole des antimicrobiens</li>
+                    <li><strong>Ministère de l'Environnement</strong> : Pollution et résidus</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Surveillance de la RAM</h2>
+                
+                <h3>Réseau national de surveillance</h3>
+                <p>Le Sénégal a mis en place un réseau de surveillance coordonné par l'Institut de Recherche en Santé, de Surveillance Épidémiologique et de Formations (IRESSEF), incluant :</p>
+                
+                <h4>Sites sentinelles</h4>
+                <ul>
+                    <li><strong>Hôpital Principal de Dakar</strong> : Centre de référence national</li>
+                    <li><strong>CHNU de Fann</strong> : Spécialités médicales</li>
+                    <li><strong>Hôpital Aristide Le Dantec</strong> : Maladies infectieuses</li>
+                    <li><strong>Centres hospitaliers régionaux</strong> : Thiès, Saint-Louis, Ziguinchor</li>
+                </ul>
+                
+                <h3>Données de surveillance</h3>
+                <p>Les données collectées montrent :</p>
+                <ul>
+                    <li><strong>E. coli</strong> : 65% de résistance aux fluoroquinolones, 45% producteurs de BLSE</li>
+                    <li><strong>K. pneumoniae</strong> : 55% producteurs de BLSE, émergence de résistance aux carbapénèmes</li>
+                    <li><strong>S. aureus</strong> : 35% de résistance à la méticilline</li>
+                    <li><strong>Salmonella Typhi</strong> : 78% de résistance à la ciprofloxacine</li>
+                </ul>
+                
+                <h3>Participation aux initiatives internationales</h3>
+                <ul>
+                    <li><strong>GLASS-AMR</strong> : Participation au système mondial de surveillance de l'OMS</li>
+                    <li><strong>CAESAR</strong> : Membre du réseau africain de surveillance</li>
+                    <li><strong>WANETAM</strong> : Réseau ouest-africain de surveillance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Institutions et acteurs clés</h2>
+                
+                <h3>Institutions de recherche</h3>
+                
+                <h4>IRESSEF (Institut de Recherche en Santé, de Surveillance Épidémiologique et de Formations)</h4>
+                <p>Institution nationale de référence pour la surveillance épidémiologique et la recherche en santé, coordonnant les activités de surveillance de la RAM.</p>
+                
+                <h4>IPD (Institut Pasteur de Dakar)</h4>
+                <p>Centre de recherche international spécialisé en microbiologie et maladies infectieuses, contribuant à la recherche sur la RAM en Afrique de l'Ouest.</p>
+                
+                <h4>Université Cheikh Anta Diop (UCAD)</h4>
+                <p>Formation des professionnels de santé et recherche académique en microbiologie et pharmacologie.</p>
+                
+                <h3>Laboratoires de référence</h3>
+                <ul>
+                    <li><strong>Laboratoire National de Référence</strong> : Confirmation des résistances</li>
+                    <li><strong>Laboratoires hospitaliers</strong> : Diagnostic de routine</li>
+                    <li><strong>Laboratoires privés</strong> : Complément du secteur public</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Défis et contraintes</h2>
+                
+                <h3>Défis techniques</h3>
+                <ul>
+                    <li><strong>Capacités diagnostiques limitées</strong> : Équipements et réactifs insuffisants</li>
+                    <li><strong>Formation du personnel</strong> : Besoin de renforcement des compétences</li>
+                    <li><strong>Système d'information</strong> : Collecte et analyse des données</li>
+                    <li><strong>Assurance qualité</strong> : Contrôle qualité des laboratoires</li>
+                </ul>
+                
+                <h3>Défis réglementaires</h3>
+                <ul>
+                    <li><strong>Réglementation pharmaceutique</strong> : Application des textes sur les antibiotiques</li>
+                    <li><strong>Contrôle des frontières</strong> : Lutte contre les médicaments illicites</li>
+                    <li><strong>Usage vétérinaire</strong> : Réglementation de l'usage animal</li>
+                    <li><strong>Prescription</strong> : Renforcement du contrôle médical</li>
+                </ul>
+                
+                <h3>Défis socio-économiques</h3>
+                <ul>
+                    <li><strong>Accessibilité financière</strong> : Coût des examens et traitements</li>
+                    <li><strong>Automédication</strong> : Pratiques traditionnelles d'automédication</li>
+                    <li><strong>Éducation sanitaire</strong> : Sensibilisation des populations</li>
+                    <li><strong>Inégalités géographiques</strong> : Accès aux soins en zone rurale</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <h3><i class="fas fa-flag"></i> Engagement national et international</h3>
+                <p>Le Sénégal s'est engagé fermement dans la lutte contre la RAM :</p>
+                <ul>
+                    <li><strong>Adhésion aux initiatives mondiales</strong> : OMS, FAO, OIE</li>
+                    <li><strong>Coopération régionale</strong> : CEDEAO, Union Africaine</li>
+                    <li><strong>Partenariats techniques</strong> : CDC, ECDC, institutions françaises</li>
+                    <li><strong>Financement</strong> : Recherche de ressources durables</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Initiatives et programmes en cours</h2>
+                
+                <h3>Formation et renforcement des capacités</h3>
+                <ul>
+                    <li><strong>Formation continue</strong> : Programmes pour professionnels de santé</li>
+                    <li><strong>Diplômes spécialisés</strong> : Master en microbiologie clinique</li>
+                    <li><strong>Bourses internationales</strong> : Formation à l'étranger</li>
+                    <li><strong>Ateliers techniques</strong> : Techniques de laboratoire</li>
+                </ul>
+                
+                <h3>Sensibilisation communautaire</h3>
+                <ul>
+                    <li><strong>Campagnes médiatiques</strong> : Radio, télévision, presse écrite</li>
+                    <li><strong>Éducation scolaire</strong> : Programmes dans les écoles</li>
+                    <li><strong>Mobilisation communautaire</strong> : Leaders religieux et traditionnels</li>
+                    <li><strong>Matériel éducatif</strong> : Brochures en langues nationales</li>
+                </ul>
+                
+                <h3>Recherche opérationnelle</h3>
+                <ul>
+                    <li><strong>Études épidémiologiques</strong> : Prévalence et facteurs de risque</li>
+                    <li><strong>Recherche clinique</strong> : Efficacité thérapeutique</li>
+                    <li><strong>Recherche socio-anthropologique</strong> : Comportements et pratiques</li>
+                    <li><strong>Évaluation économique</strong> : Coût de la RAM au Sénégal</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Perspectives et orientations futures</h2>
+                
+                <h3>Objectifs 2025-2030</h3>
+                <ul>
+                    <li><strong>Extension de la surveillance</strong> : Couverture nationale complète</li>
+                    <li><strong>Renforcement diagnostique</strong> : Laboratoires de référence régionaux</li>
+                    <li><strong>Digitalisation</strong> : Système d'information intégré</li>
+                    <li><strong>Recherche translationnelle</strong> : Du laboratoire à la clinique</li>
+                </ul>
+                
+                <h3>Innovations technologiques</h3>
+                <ul>
+                    <li><strong>Tests rapides</strong> : Diagnostics au point de soins</li>
+                    <li><strong>Séquençage génomique</strong> : Surveillance moléculaire</li>
+                    <li><strong>Intelligence artificielle</strong> : Aide à la décision clinique</li>
+                    <li><strong>Télémédecine</strong> : Consultation à distance</li>
+                </ul>
+                
+                <h3>Coopération internationale renforcée</h3>
+                <ul>
+                    <li><strong>Réseaux de recherche</strong> : Collaboration scientifique internationale</li>
+                    <li><strong>Échanges d'expertise</strong> : Mobilité des chercheurs</li>
+                    <li><strong>Harmonisation régionale</strong> : Standards communs CEDEAO</li>
+                    <li><strong>Financement durable</strong> : Mécanismes de financement innovants</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Ressources et contacts</h2>
+                
+                <h3>Institutions nationales</h3>
+                <ul>
+                    <li><strong>IRESSEF</strong> : VGG4+XCF, Route de l'Aéroport, Diamniadio</li>
+                    <li><strong>Institut Pasteur de Dakar</strong> : 36 Avenue Pasteur, BP 220, Dakar</li>
+                    <li><strong>Direction de la Pharmacie et du Médicament</strong> : Ministère de la Santé</li>
+                    <li><strong>UCAD - Faculté de Médecine</strong> : BP 5005, Dakar-Fann</li>
+                </ul>
+                
+                <h3>Publications sénégalaises</h3>
+                <ul>
+                    <li>"Antimicrobial resistance patterns in Dakar hospitals" - <em>African Journal of Clinical Microbiology</em></li>
+                    <li>"ESBL-producing Enterobacteriaceae in Senegal" - <em>International Journal of Antimicrobial Agents</em></li>
+                    <li>"Traditional medicine and antibiotic use in Senegal" - <em>Tropical Medicine & International Health</em></li>
+                </ul>
+                
+                <h3>Événements scientifiques</h3>
+                <ul>
+                    <li><strong>Journées Nationales de Microbiologie</strong> : Événement annuel</li>
+                    <li><strong>Congrès SOMAPH</strong> : Société Ouest-Africaine de Pharmacologie</li>
+                    <li><strong>Symposium RAM Afrique de l'Ouest</strong> : Rencontre régionale</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Comment contribuer</h2>
+                <p>Professionnels de santé, chercheurs, et citoyens peuvent contribuer à la lutte contre la RAM au Sénégal :</p>
+                
+                <h3>Pour les professionnels de santé</h3>
+                <ul>
+                    <li>Participer aux formations sur le bon usage des antibiotiques</li>
+                    <li>Contribuer aux données de surveillance</li>
+                    <li>Appliquer les guidelines nationales</li>
+                    <li>Sensibiliser les patients</li>
+                </ul>
+                
+                <h3>Pour les chercheurs</h3>
+                <ul>
+                    <li>Soumettre des projets de recherche</li>
+                    <li>Collaborer avec les institutions nationales</li>
+                    <li>Publier dans des revues scientifiques</li>
+                    <li>Former la nouvelle génération</li>
+                </ul>
+                
+                <h3>Pour le grand public</h3>
+                <ul>
+                    <li>Respecter les prescriptions médicales</li>
+                    <li>Éviter l'automédication</li>
+                    <li>Pratiquer une bonne hygiène</li>
+                    <li>Se faire vacciner selon le calendrier</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

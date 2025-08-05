@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatique et RAM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-shield-virus"></i> RAM</h1>
+                <p>Résistance aux Antimicrobiens</p>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="antibiotiques.html"><i class="fas fa-pills"></i> Les Antibiotiques</a></li>
+                <li><a href="prevention.html"><i class="fas fa-shield-alt"></i> Stratégies de Prévention</a></li>
+                <li><a href="bioinformatique.html" class="active"><i class="fas fa-dna"></i> Bioinformatique et RAM</a></li>
+                <li><a href="articles.html"><i class="fas fa-newspaper"></i> Articles</a></li>
+                <li><a href="senegal.html"><i class="fas fa-map-marker-alt"></i> RAM au Sénégal</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Bioinformatique et RAM</h1>
+                <p>L'apport des outils computationnels dans la lutte contre la résistance</p>
+            </div>
+
+            <div class="card">
+                <h2>Séquençage génomique et RAM</h2>
+                <p>Le séquençage du génome entier (WGS - Whole Genome Sequencing) révolutionne notre compréhension de la résistance aux antimicrobiens en permettant une analyse détaillée des mécanismes de résistance au niveau moléculaire.</p>
+                
+                <h3>Technologies de séquençage</h3>
+                <ul>
+                    <li><strong>Séquençage de nouvelle génération (NGS)</strong> : Illumina, Ion Torrent</li>
+                    <li><strong>Séquençage de troisième génération</strong> : PacBio, Oxford Nanopore</li>
+                    <li><strong>Séquençage en temps réel</strong> : Applications cliniques d'urgence</li>
+                </ul>
+                
+                <h3>Applications cliniques du WGS</h3>
+                <p>Le séquençage génomique permet de :</p>
+                <ul>
+                    <li><strong>Identifier les gènes de résistance</strong> : Détection rapide des déterminants génétiques</li>
+                    <li><strong>Prédire la sensibilité</strong> : Antibiogramme génomique</li>
+                    <li><strong>Tracer les épidémies</strong> : Suivi phylogénétique des souches</li>
+                    <li><strong>Guider la thérapie</strong> : Choix d'antibiotiques basé sur le génome</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Bases de données et ressources</h2>
+                
+                <h3>Bases de données principales</h3>
+                
+                <h4>CARD (Comprehensive Antibiotic Resistance Database)</h4>
+                <p>Base de données complète et rigoureusement organisée des gènes de résistance aux antibiotiques, leurs produits protéiques et les phénotypes de résistance associés.</p>
+                <ul>
+                    <li>Plus de 6,000 gènes de résistance référencés</li>
+                    <li>Ontologie des mécanismes de résistance (ARO)</li>
+                    <li>Outils d'analyse intégrés (RGI - Resistance Gene Identifier)</li>
+                </ul>
+                
+                <h4>ResFinder</h4>
+                <p>Outil web pour l'identification des gènes de résistance acquis dans les génomes bactériens complets ou partiels.</p>
+                
+                <h4>NCBI AMRFinderPlus</h4>
+                <p>Outil de détection des gènes de résistance aux antimicrobiens et des gènes de virulence dans les assemblages de génomes bactériens.</p>
+                
+                <h4>PATRIC</h4>
+                <p>Plateforme bioinformatique intégrant données génomiques, outils d'analyse et ressources pour l'étude des pathogènes bactériens.</p>
+                
+                <h3>Bases de données spécialisées</h3>
+                <ul>
+                    <li><strong>β-lactamase DB</strong> : Classification des β-lactamases</li>
+                    <li><strong>ARDB</strong> : Antibiotic Resistance Genes Database</li>
+                    <li><strong>MEGARes</strong> : Base de données pour l'écologie de la résistance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Outils d'analyse bioinformatique</h2>
+                
+                <h3>Analyse phylogénétique</h3>
+                <p>L'analyse phylogénétique permet de comprendre l'évolution et la propagation des souches résistantes :</p>
+                <ul>
+                    <li><strong>Construction d'arbres phylogénétiques</strong> : RAxML, IQ-TREE, FastTree</li>
+                    <li><strong>Analyse des SNP</strong> : Identification des polymorphismes</li>
+                    <li><strong>Datation moléculaire</strong> : Estimation des temps de divergence</li>
+                    <li><strong>Reconstruction ancestrale</strong> : Histoire évolutive des résistances</li>
+                </ul>
+                
+                <h3>Analyse pangenomique</h3>
+                <p>Étude comparative des génomes au niveau d'une espèce :</p>
+                <ul>
+                    <li><strong>Identification du core genome</strong> : Gènes partagés par tous les isolats</li>
+                    <li><strong>Génome accessoire</strong> : Gènes variables incluant les résistances</li>
+                    <li><strong>Transfert horizontal</strong> : Identification des événements de transfert</li>
+                </ul>
+                
+                <h3>Typage moléculaire</h3>
+                <p>Techniques de caractérisation des souches :</p>
+                <ul>
+                    <li><strong>MLST (Multi-Locus Sequence Typing)</strong> : Typage basé sur les gènes de ménage</li>
+                    <li><strong>cgMLST/wgMLST</strong> : Typage utilisant le génome complet</li>
+                    <li><strong>Analyse des SNP</strong> : Comparaison haute résolution</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Intelligence artificielle et apprentissage automatique</h2>
+                
+                <h3>Prédiction de la résistance</h3>
+                <p>L'IA transforme notre capacité à prédire la résistance aux antimicrobiens :</p>
+                <ul>
+                    <li><strong>Modèles prédictifs génomiques</strong> : Random Forest, SVM, réseaux de neurones</li>
+                    <li><strong>Deep learning</strong> : Réseaux convolutionnels pour l'analyse de séquences</li>
+                    <li><strong>Ensemble methods</strong> : Combinaison de plusieurs algorithmes</li>
+                    <li><strong>Transfer learning</strong> : Application de modèles pré-entraînés</li>
+                </ul>
+                
+                <h3>Applications de l'IA en RAM</h3>
+                
+                <h4>Découverte de médicaments</h4>
+                <ul>
+                    <li>Identification de nouvelles cibles thérapeutiques</li>
+                    <li>Conception rationnelle de molécules</li>
+                    <li>Prédiction de l'activité antimicrobienne</li>
+                    <li>Optimisation des combinaisons d'antibiotiques</li>
+                </ul>
+                
+                <h4>Optimisation des traitements</h4>
+                <ul>
+                    <li>Personnalisation des thérapies antimicrobiennes</li>
+                    <li>Prédiction de l'efficacité thérapeutique</li>
+                    <li>Ajustement des doses en temps réel</li>
+                    <li>Minimisation des effets secondaires</li>
+                </ul>
+                
+                <h4>Surveillance épidémiologique</h4>
+                <ul>
+                    <li>Détection précoce des épidémies</li>
+                    <li>Prédiction de la propagation des résistances</li>
+                    <li>Identification des facteurs de risque</li>
+                    <li>Modélisation des interventions</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Workflow bioinformatique standard</h2>
+                
+                <h3>1. Préparation des données</h3>
+                <ul>
+                    <li><strong>Quality control</strong> : FastQC, MultiQC</li>
+                    <li><strong>Trimming</strong> : Trimmomatic, Cutadapt</li>
+                    <li><strong>Contamination checking</strong> : Kraken2, Centrifuge</li>
+                </ul>
+                
+                <h3>2. Assemblage et annotation</h3>
+                <ul>
+                    <li><strong>Assemblage de novo</strong> : SPAdes, Velvet, Canu</li>
+                    <li><strong>Évaluation de la qualité</strong> : QUAST, BUSCO</li>
+                    <li><strong>Annotation</strong> : Prokka, RAST, NCBI PGAP</li>
+                </ul>
+                
+                <h3>3. Analyse de la résistance</h3>
+                <ul>
+                    <li><strong>Identification des gènes</strong> : RGI (CARD), ResFinder, AMRFinderPlus</li>
+                    <li><strong>Prédiction phénotypique</strong> : Corrélation génotype-phénotype</li>
+                    <li><strong>Analyse des plasmides</strong> : PlasmidFinder, MOB-suite</li>
+                </ul>
+                
+                <h3>4. Analyse comparative</h3>
+                <ul>
+                    <li><strong>Typage</strong> : MLST, cgMLST</li>
+                    <li><strong>Phylogénie</strong> : Construction d'arbres, analyse temporelle</li>
+                    <li><strong>Épidémiologie</strong> : Clustering, transmission tracking</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <h3><i class="fas fa-code"></i> Défis et perspectives</h3>
+                <p>La bioinformatique appliquée à la RAM fait face à plusieurs défis :</p>
+                <ul>
+                    <li><strong>Volume de données</strong> : Gestion de Big Data génomiques</li>
+                    <li><strong>Standardisation</strong> : Harmonisation des méthodes et formats</li>
+                    <li><strong>Interprétation clinique</strong> : Corrélation génotype-phénotype</li>
+                    <li><strong>Formation</strong> : Besoin de bioinformaticiens spécialisés</li>
+                    <li><strong>Infrastructure</strong> : Capacités de calcul haute performance</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Initiatives et projets internationaux</h2>
+                
+                <h3>GLASS (Global AMR Surveillance System)</h3>
+                <p>Initiative de l'OMS pour standardiser la surveillance mondiale de la RAM, incluant des composants bioinformatiques.</p>
+                
+                <h3>Global Microbial Identifier (GMI)</h3>
+                <p>Plateforme mondiale pour le partage et l'analyse de données génomiques microbiennes.</p>
+                
+                <h3>COMPARE</h3>
+                <p>Projet européen pour le développement d'outils bioinformatiques pour la surveillance des maladies infectieuses.</p>
+                
+                <h3>AMR-One Health</h3>
+                <p>Initiatives intégrant données humaines, animales et environnementales pour une approche One Health de la RAM.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

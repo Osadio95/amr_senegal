@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Antibiotiques - RAM</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="container">
+        <nav class="sidebar" id="sidebar">
+            <div class="logo">
+                <h1><i class="fas fa-shield-virus"></i> RAM</h1>
+                <p>Résistance aux Antimicrobiens</p>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                <li><a href="antibiotiques.html" class="active"><i class="fas fa-pills"></i> Les Antibiotiques</a></li>
+                <li><a href="prevention.html"><i class="fas fa-shield-alt"></i> Stratégies de Prévention</a></li>
+                <li><a href="bioinformatique.html"><i class="fas fa-dna"></i> Bioinformatique et RAM</a></li>
+                <li><a href="articles.html"><i class="fas fa-newspaper"></i> Articles</a></li>
+                <li><a href="senegal.html"><i class="fas fa-map-marker-alt"></i> RAM au Sénégal</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Les Antibiotiques</h1>
+                <p>Comprendre le fonctionnement et les enjeux des antibiotiques</p>
+            </div>
+
+            <div class="card">
+                <h2>Histoire des antibiotiques</h2>
+                <p>La découverte de la pénicilline par Alexander Fleming en 1928 a révolutionné la médecine moderne. Depuis, les antibiotiques ont sauvé des millions de vies et ont permis le développement de nombreuses procédures médicales complexes.</p>
+                
+                <h3>Chronologie des découvertes</h3>
+                <ul>
+                    <li><strong>1928</strong> : Découverte de la pénicilline par Alexander Fleming</li>
+                    <li><strong>1935</strong> : Développement des sulfamides par Gerhard Domagk</li>
+                    <li><strong>1943</strong> : Découverte de la streptomycine par Selman Waksman</li>
+                    <li><strong>1950</strong> : Développement du chloramphénicol</li>
+                    <li><strong>1962</strong> : Introduction de la méticilline</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Mécanismes d'action</h2>
+                <p>Les antibiotiques agissent de différentes manières pour éliminer ou inhiber la croissance des bactéries :</p>
+                
+                <h3>1. Inhibition de la synthèse de la paroi cellulaire</h3>
+                <p><strong>Exemples :</strong> Pénicillines, céphalosporines, vancomycine</p>
+                <p>Ces antibiotiques empêchent la formation ou la réparation de la paroi cellulaire bactérienne, entraînant la lyse de la cellule.</p>
+                
+                <h3>2. Inhibition de la synthèse protéique</h3>
+                <p><strong>Exemples :</strong> Aminoglycosides, tétracyclines, chloramphénicol</p>
+                <p>Ils se lient aux ribosomes bactériens et bloquent la synthèse des protéines essentielles.</p>
+                
+                <h3>3. Inhibition de la réplication de l'ADN</h3>
+                <p><strong>Exemples :</strong> Quinolones, métronidazole</p>
+                <p>Ces antibiotiques interfèrent avec la réplication de l'ADN bactérien.</p>
+                
+                <h3>4. Disruption de la membrane cellulaire</h3>
+                <p><strong>Exemples :</strong> Polymyxines, daptomycine</p>
+                <p>Ils altèrent la perméabilité de la membrane cellulaire bactérienne.</p>
+            </div>
+
+            <div class="card">
+                <h2>Classification des antibiotiques</h2>
+                
+                <h3>Bêta-lactamines</h3>
+                <p>La plus grande famille d'antibiotiques, incluant :</p>
+                <ul>
+                    <li><strong>Pénicillines</strong> : Pénicilline G, amoxicilline, ampicilline</li>
+                    <li><strong>Céphalosporines</strong> : Classées en 4 générations</li>
+                    <li><strong>Carbapénèmes</strong> : Imipénème, méropénème, ertapénème</li>
+                    <li><strong>Monobactames</strong> : Aztréonam</li>
+                </ul>
+                
+                <h3>Aminoglycosides</h3>
+                <p>Antibiotiques bactéricides actifs contre les bactéries Gram-négatives :</p>
+                <ul>
+                    <li>Gentamicine</li>
+                    <li>Tobramycine</li>
+                    <li>Amikacine</li>
+                </ul>
+                
+                <h3>Macrolides et apparentés</h3>
+                <p>Antibiotiques bactériostatiques :</p>
+                <ul>
+                    <li>Érythromycine</li>
+                    <li>Clarithromycine</li>
+                    <li>Azithromycine</li>
+                </ul>
+                
+                <h3>Quinolones</h3>
+                <p>Antibiotiques synthétiques à large spectre :</p>
+                <ul>
+                    <li>Ciprofloxacine</li>
+                    <li>Lévofloxacine</li>
+                    <li>Moxifloxacine</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Spectre d'activité</h2>
+                
+                <h3>Antibiotiques à spectre étroit</h3>
+                <p>Actifs contre un nombre limité d'espèces bactériennes. Exemples : pénicilline G, vancomycine.</p>
+                
+                <h3>Antibiotiques à large spectre</h3>
+                <p>Actifs contre de nombreuses espèces bactériennes, incluant Gram-positives et Gram-négatives. Exemples : amoxicilline-acide clavulanique, céfotaxime.</p>
+                
+                <h3>Antibiotiques à très large spectre</h3>
+                <p>Actifs contre pratiquement toutes les bactéries. Exemples : carbapénèmes, tigécycline.</p>
+            </div>
+
+            <div class="highlight">
+                <h3><i class="fas fa-lightbulb"></i> Bon usage des antibiotiques</h3>
+                <p>L'utilisation appropriée des antibiotiques est cruciale pour préserver leur efficacité :</p>
+                <ul>
+                    <li>Respecter scrupuleusement la prescription médicale</li>
+                    <li>Prendre la totalité du traitement, même en cas d'amélioration</li>
+                    <li>Ne jamais partager ses antibiotiques</li>
+                    <li>Ne pas conserver les antibiotiques non utilisés</li>
+                    <li>Ne pas demander d'antibiotiques pour une infection virale</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Résistance aux antibiotiques</h2>
+                
+                <h3>Mécanismes de résistance</h3>
+                <p>Les bactéries développent différents mécanismes pour résister aux antibiotiques :</p>
+                <ul>
+                    <li><strong>Production d'enzymes</strong> : β-lactamases, aminoglycoside-modifying enzymes</li>
+                    <li><strong>Modification de la cible</strong> : Altération des PBP, modification des ribosomes</li>
+                    <li><strong>Efflux actif</strong> : Pompes d'efflux expulsant l'antibiotique</li>
+                    <li><strong>Diminution de la perméabilité</strong> : Modification des porines</li>
+                </ul>
+                
+                <h3>Conséquences de la résistance</h3>
+                <p>La résistance aux antibiotiques entraîne :</p>
+                <ul>
+                    <li>Échecs thérapeutiques</li>
+                    <li>Prolongation des infections</li>
+                    <li>Augmentation de la mortalité</li>
+                    <li>Coûts de santé plus élevés</li>
+                    <li>Nécessité d'antibiotiques plus toxiques</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Développement de nouveaux antibiotiques</h2>
+                <p>Face à la crise de la résistance, le développement de nouveaux antibiotiques est crucial :</p>
+                
+                <h3>Approches innovantes</h3>
+                <ul>
+                    <li><strong>Inhibiteurs de β-lactamases</strong> : Clavulanate, tazobactam, avibactam</li>
+                    <li><strong>Antibiotiques synthétiques</strong> : Nouvelles quinolones, oxazolidinones</li>
+                    <li><strong>Thérapies combinées</strong> : Association d'antibiotiques synergiques</li>
+                    <li><strong>Approches alternatives</strong> : Phagothérapie, peptides antimicrobiens</li>
+                </ul>
+                
+                <h3>Défis du développement</h3>
+                <p>Le développement de nouveaux antibiotiques fait face à plusieurs obstacles :</p>
+                <ul>
+                    <li>Coûts de développement élevés</li>
+                    <li>Rentabilité économique faible</li>
+                    <li>Exigences réglementaires strictes</li>
+                    <li>Résistance rapide aux nouveaux agents</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
